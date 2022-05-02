@@ -23,6 +23,13 @@ export const createColor = async (req: Request, res: Response) => {
     return;
   }
 
+  const searchedColor = await Color.find({ name: color.name });
+
+  if (searchedColor.length > 0) {
+    res.status(409).json({ message: 'Uma cor com esse nome já existe' });
+    return;
+  }
+
   const createdColor = await Color.create(color);
 
   res.status(201).json(createdColor);
