@@ -12,6 +12,7 @@ const server = express();
 
 server.use(cors());
 server.use(express.urlencoded({ extended: true }));
+server.use(express.json());
 
 server.use('/api', ApiRoutes);
 server.use((req, res) => {
