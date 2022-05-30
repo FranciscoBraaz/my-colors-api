@@ -6,7 +6,8 @@
     Api para projeto da fase de trainee da Softeam
 </h2>
 
-##  🔽 Link da api: [MyColors](https://softeam-my-colors.herokuapp.com/api/)
+##  🔽 Link da api: [MyColors - Api](https://softeam-my-colors.herokuapp.com/api/)
+##  🔽 Link do design: [MyColors - Design](https://www.figma.com/file/SIgYgTBjo3DUkiQDCw4qsd/My-Favorite-Colors?node-id=0%3A1)
 
 ## 👷  Executando o projeto localmente
  ### Pré-requisitos: 
